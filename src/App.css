@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+  font-family: 'Moon Dance', cursiva;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  background-color: #41197f;
+  height: 100%;
+  width: 100%;
+}

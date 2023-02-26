@@ -1,0 +1,86 @@
+.user {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: center;
+  margin: 70px auto;
+  margin-top: 30px;
+  max-width: 600px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.user span {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.user p {
+  background: whitesmoke;
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.image-avatar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -30px;
+  width: 100%;
+}
+
+.image-avatar img {
+  border-radius: 50%;
+  height: 200px;
+  margin-bottom: -190px;
+  margin-top: -50px;
+  width: 200px;
+}
+
+.link-user-profile {
+  height: 40vh;
+  margin-top: 200px;
+  width: 100%;
+}
+
+.link-user-profile a {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.link-user-profile button {
+  background-color: witesmoke;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 40px;
+  margin: 10px 100px;
+  min-width: 300px;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.link-user-profile button:hover {
+  background-color: rgb(252, 220, 54);
+  color: black;
+  scale: 1.03;
+}
+
+.link-user-profile button:active {
+  background-color: rgb(252, 220, 54);
+  color: black;
+  scale: 0.9;
+}

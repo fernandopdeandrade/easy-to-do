@@ -1,0 +1,203 @@
+.favorite-recipes {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.filters {
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  margin-bottom: -40px;
+  margin-top: 70px;
+  padding: 10px;
+  width: 80%;
+}
+
+ul > li > p {
+  border: none;
+  box-shadow: none;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+ul > li > button {
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 100%;
+  margin: 5px;
+  padding: 2px;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.filters > button {
+  background-color: rgb(243, 112, 32);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  height: 100%;
+  transition: all ease-in-out 0.3s;
+  width: 100px;
+}
+
+.buttons > button {
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 30px;
+  margin: 5px;
+  padding: 2px;
+  transition: all 0.3s ease-in-out;
+  width: 30px;
+}
+
+.filters button:hover {
+  background-color: rgb(255, 128, 0);
+  scale: 1.05;
+}
+
+.filters button:active {
+  box-shadow: 5px 5px black;
+  scale: 0.95;
+}
+
+.favorite-recipes > ul {
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px black;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 70px;
+  max-width: 1000px;
+  min-height: 20px;
+  min-width: 90%;
+}
+
+.favorite-recipes > ul > li {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  flex-direction: column;
+  height: 390px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  width: 250px;
+}
+
+.favorite-recipes > ul > li > p {
+  color: black;
+  height: 100%;
+  text-align: center;
+  text-shadow: none;
+  width: 100%;
+}
+
+.imgRecipes {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.favorite-recipes > ul > li > button:hover {
+  scale: 1.05;
+}
+
+.favorite-recipes > ul > li > button:active {
+  box-shadow: 5px 5px black;
+  scale: 0.95;
+}
+
+.buttons {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.imgBtn {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and ( max-width : 1300px ) {
+
+  .favorite-recipes > ul {
+    max-width: 700px;
+  }
+
+  .favorite-recipes > ul > li {
+    height: 100%;
+    width: 30%;
+  }
+}
+
+@media screen and ( max-width : 1100px ) {
+
+  .favorite-recipes > ul {
+    max-width: 500px;
+    min-width: 200px;
+  }
+
+  .favorite-recipes > ul > li {
+    height: 100%;
+    width: 45%;
+  }
+}
+
+@media screen and ( max-width : 760px ) {
+
+  .favorite-recipes > ul {
+    margin-left: 0;
+    min-width: 90%;
+    width: 96%;
+  }
+
+  .favorite-recipes > ul > li {
+    height: 100%;
+    width: 30%;
+  }
+}
+
+@media screen and ( max-width : 500px ) {
+
+  .favorite-recipes > ul {
+    margin-left: 0;
+    min-width: 90%;
+    width: 96%;
+  }
+
+  .filters {
+    width: 96%;
+  }
+
+  .favorite-recipes > ul > li {
+    height: 100%;
+    width: 95%;
+  }
+}

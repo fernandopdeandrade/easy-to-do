@@ -1,0 +1,194 @@
+.drinks-page {
+  background-color: white;
+  height: 100vh;
+  margin-top: 70px;
+  text-align: center;
+  width: 100%;
+}
+
+.response-search-drinks {
+  padding-bottom: 80px;
+}
+
+.drinks-page h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 1.5rem 0;
+  text-shadow: 0 0 1rem black;
+}
+
+.drinks-list-image {
+  border-radius: 10px;
+  box-shadow: 0 12px 12px 12px rgb(255, 238, 0);
+  height: 80%;
+  margin: 0 auto;
+  padding-bottom: 70px;
+  width: 96%;
+}
+
+.drinks-container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.drink-card {
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 8px 8px black;
+  display: inline-block;
+  height: 100%;
+  margin: 20px;
+  overflow: hidden;
+  padding: 2px;
+  width: 20%;
+}
+
+.drink-card img {
+  border: 2px solid rgb(173, 168, 168);
+  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.drink-card p {
+  border-left: 10px solid rgb(252, 220, 54);
+  border-radius: 30px;
+  border-right: 10px solid rgb(252, 220, 54);
+  border-top: 10px solid rgb(252, 220, 54);
+  box-shadow: none;
+  color: white;
+  font-weight: 900;
+}
+
+.drinks-card p {
+  border-left: 10px solid rgb(252, 220, 54);
+  border-radius: 30px;
+  border-right: 10px solid rgb(252, 220, 54);
+  border-top: 10px solid rgb(252, 220, 54);
+  box-shadow: none;
+  color: white;
+  font-weight: 900;
+}
+
+.drink-icon img {
+  animation: shake 1s infinite ease;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes shake {
+
+  0% {
+
+    /* transform: rotate(5deg); */
+    scale: 1.1;
+  }
+
+  50% {
+
+    /* transform: rotate(-5deg); */
+    scale: 1.2;
+  }
+
+  100% {
+
+    /* transform: rotate(5deg); */
+    scale: 1.1;
+  }
+}
+
+.all-categories {
+  background-color: rgb(243, 112, 32);
+  border: 2px solid rgb(252, 220, 54);
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 10px;
+  padding: 10px;
+  text-shadow: 2px 2px 2px white;
+  transition: all 0.3s ease-in-out;
+  width: 100px;
+}
+
+.drinks-categories {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  width: 100%;
+}
+
+.drinks-categories .all-categories {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.drinks-categories-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.drinks-categories-list-img {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+.drinks-categories-list button {
+  background-color: rgb(243, 112, 32);
+  border: 3px solid rgb(252, 220, 54);
+  border-radius: 10px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 5px;
+  padding: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.drinks-categories-list button:hover {
+  background-color: rgb(241, 187, 51);
+  scale: 1.05;
+}
+
+.drinks-categories-list button:active {
+  scale: 0.95;
+}
+
+.all-categories:hover {
+  background-color: rgb(241, 187, 51);
+  scale: 1.05;
+}
+
+.all-categories:active {
+  scale: 0.95;
+}
+
+@media screen and ( max-width : 768px ) {
+
+  .drink-card {
+    font-size: 10px;
+    margin: 5px;
+    width: 45%;
+  }
+
+  .drinks-card p {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,37 @@
+footer {
+  align-items: center;
+  background-color: rgb(252, 220, 54);
+  bottom: 0;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  left: 0;
+  padding: 0 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.redes-sociais {
+  text-align: center;
+}
+
+.redes-sociais strong {
+  color: black;
+  font-size: 1rem;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px wihte;
+}
+
+footer a {
+  padding: 10px;
+}
+
+footer img {
+  height: 35px;
+  transition: all 0.3s ease-in-out;
+  width: 35px;
+}
+
+footer img:hover {
+  transform: scale(1.3);
+}

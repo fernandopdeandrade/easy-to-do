@@ -1,0 +1,187 @@
+.recipe-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.title-image-name {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+ol {
+  border: 1px solid rgba(236, 233, 233, 0.363);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px black;
+}
+
+p {
+  border: 1px solid rgba(236, 233, 233, 0.363);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: -30px;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+.title-image-name img {
+  height: 100px;
+  margin: 20px auto;
+  width: 100px;
+}
+
+.allRecomendation {
+  border: 1px solid white;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 230px;
+  margin-bottom: 70px;
+  margin-top: -40px;
+  overflow: auto;
+  overflow-y: hidden;
+  width: 344px;
+}
+
+.allRecomendation img {
+  height: 150px;
+  width: 150px;
+}
+
+.cardRecomendation {
+  align-items: center;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+.share-button {
+  background-color: #f5c518;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 30px;
+  transition: all ease-in-out 0.3s;
+  width: 100px;
+}
+
+.share-button:hover {
+  background-color: #bd9b20;
+  transform: scale(1.1);
+}
+
+.share-button:active {
+  background-color: #bd9b20;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+}
+
+.copied-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: -30px;
+  text-align: center;
+  text-shadow: 2px 2px 4px white;
+}
+
+.favorite-button {
+  background-color: #f5c518;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 30px;
+  transition: all ease-in-out 0.3s;
+  width: 200px;
+}
+
+.favorite-button:hover {
+  background-color: #bd9b20;
+  transform: scale(1.1);
+}
+
+.favorite-button:active {
+  background-color: #bd9b20;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+}
+
+iframe {
+  border: 1px solid white;
+  height: 200px;
+  margin-bottom: -40px;
+  margin-top: 40px;
+  width: 300px;
+}
+
+.btnStart {
+  background-color: #f5c518;
+  border: none;
+  bottom: 0;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+  width: 100%;
+}
+
+.btnStart:hover {
+  background-color: #f5c518;
+  color: white;
+  transform: scale(1.1);
+}
+
+.btnStart:active {
+  background-color: #f5c518;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  transform: scale(0.9);
+}

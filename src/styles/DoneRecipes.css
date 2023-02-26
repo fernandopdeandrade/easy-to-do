@@ -1,0 +1,168 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.doneRecipes {
+  align-items: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.button-options {
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  margin-top: -30px;
+  padding: 10px;
+  width: 80%;
+}
+
+.button-options > button {
+  background-color: rgb(243, 112, 32);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  height: 100%;
+  transition: all ease-in-out 0.3s;
+  width: 100px;
+}
+
+.done-item > button {
+  background-color: rgb(243, 112, 32);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  height: 30px;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  width: 90%;
+}
+
+.button-options > button:hover {
+  background-color: rgb(255, 128, 0);
+  scale: 1.05;
+}
+
+.button-options > button:active {
+  box-shadow: 5px 5px black;
+  scale: 0.95;
+}
+
+.done-items {
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px black;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  min-height: 20px;
+  min-width: 90%;
+}
+
+.done-item {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: black 5px 5px 5px;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.done-item > a > h3 {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  padding: 0;
+  text-shadow: 3px 3px 3px black;
+}
+
+.done-item > a > img {
+  height: 200px;
+  padding: 5px;
+  width: 100%;
+}
+
+.done-item > p {
+  border: none;
+  box-shadow: none;
+  color: black;
+  font-size: 15px;
+  margin: 6px;
+  padding: 0;
+}
+
+.done-item > button:hover {
+  background-color: rgb(255, 128, 0);
+  scale: 1.05;
+}
+
+.done-item > button:active {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+  scale: 0.95;
+}
+
+.done-item > ul {
+  font-size: 15px;
+  margin: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.done-item > ul > li {
+  color: black;
+  font-size: 15px;
+  margin: 5px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.done-item > span {
+  display: block;
+  font-weight: 700;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and ( max-width : 1000px ) {
+
+  .done-item {
+    width: 40%;
+  }
+}
+
+@media screen and ( max-width : 760px ) {
+
+  .done-item {
+    width: 60%;
+  }
+}
+
+@media screen and ( max-width : 600px ) {
+
+  .button-options {
+    width: 96%;
+  }
+
+  .done-item, .done-items {
+    width: 90%;
+  }
+}

@@ -1,0 +1,212 @@
+.checked {
+  text-decoration: line-through solid black;
+}
+
+.noChecked {
+  text-decoration: none;
+}
+
+.recipe-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.ingredients-info {
+  align-items: center;
+  background-color: rgba(140, 0, 255, 0.192);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 30px;
+}
+
+.ingredients-info img {
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+ol {
+  border: 1px solid rgba(236, 233, 233, 0.363);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-size: 1.3rem;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px black;
+  width: 90%;
+  background-image: url('https://i.pinimg.com/736x/10/78/c6/1078c6f6079474db0bef3ff6dc65408a.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+p {
+  border: 1px solid rgba(236, 233, 233, 0.363);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: -30px;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  background-image: url('https://i.pinimg.com/736x/10/78/c6/1078c6f6079474db0bef3ff6dc65408a.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+.share-button {
+  background-color: #f5c518;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  transition: all ease-in-out 0.3s;
+  width: 200px;
+}
+
+.share-button:hover {
+  background-color: #bd9b20;
+  transform: scale(1.1);
+}
+
+.share-button:active {
+  background-color: #bd9b20;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+}
+
+.copied-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 4px white;
+}
+
+.favorite-button {
+  background-color: #f5c518;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 35px;
+  margin-bottom: 70px;
+  transition: all ease-in-out 0.3s;
+  width: 50px;
+}
+
+.favorite-button:hover {
+  background-color: #bd9b20;
+  transform: scale(1.1);
+}
+
+.favorite-button:active {
+  background-color: #bd9b20;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+}
+
+.favorite-button img {
+  height: 30px;
+  margin-top: 4px;
+  width: 30px;
+}
+
+iframe {
+  border: 1px solid white;
+  height: 200px;
+  margin-bottom: -40px;
+  margin-top: 40px;
+  width: 300px;
+}
+
+.itens-list {
+  margin: 10px;
+  text-align: center;
+}
+
+.itens-list label {
+  margin-left: 10px;
+}
+
+.finish-recipe-button {
+  background-color: #f5c518;
+  border: none;
+  bottom: 0;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+  width: 100%;
+}
+
+.finish-recipe-button:hover {
+  background-color: #f5c518;
+  color: white;
+  transform: scale(1.1);
+}
+
+.finish-recipe-button:active {
+  background-color: #f5c518;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 600px) {
+  ol {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+}
